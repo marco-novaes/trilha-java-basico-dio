@@ -1,0 +1,43 @@
++----------------------+
+|  ReprodutorMusical   |<<interface>>
++----------------------+
+| + tocar()            |
+| + pausar()           |
+| + selecionarMusica() |
+|    + String musica   |
++----------------------+
+
++------------------------+
+|  AparelhoTelefonico    |<<interface>>
++------------------------+
+| + ligar()              |
+|    + String numero     |
+| + atender()            |
+| + iniciarCorreioVoz()  |
++------------------------+
+
++----------------------------+
+|  NavegadorNaInternet       |<<interface>>
++----------------------------+
+| + exibirPagina()           |
+|    + String url            |
+| + adicionarNovaAba()       |
+| + atualizarPagina()        |
++----------------------------+
+
+           ^
+           |
+           |
+       +--------+
+       | iPhone |
+       +--------+
+       | + tocar()            |
+       | + pausar()           |
+       | + selecionarMusica() |
+       | + ligar()            |
+       | + atender()          |
+       | + iniciarCorreioVoz()|
+       | + exibirPagina()     |
+       | + adicionarNovaAba() |
+       | + atualizarPagina()  |
+       +----------------------+
